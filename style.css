@@ -147,9 +147,6 @@ body {
     z-index: 3;
 }
 @media (width <= 767px) {
-    body {
-        justify-content: initial;
-    }
     .container{
         width: 90%;
         height: auto;

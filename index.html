@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <style>
+    .attribution {bottom: 0; font-size: 11px; text-align: center; margin-top: 20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="design-box">
+      <div class="pattern-box">
+         <img id="bg-pattern" class="bg-pattern" src="images/bg-pattern-desktop.svg">
+        <img id="illustration-woman" class="illustration-woman" src="images/illustration-woman-online-desktop.svg">
+      </div>
+      <img id="illustration-box" class="illustration-box" src="images/illustration-box-desktop.svg">
+    </div>
+    <div class="faq-box">
+      <h1>FAQ</h1>
+      <div class="qa-box">
+        <div id="question-box" class="question-box" onclick="answerer(this, 'answer-1', 'You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.')">
+        <p id="question" class="questions">How many team members can I invite?</p>
+        <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div id="answer-1" class="answer-box">
+        </div>
+        </div>
+        <div class="qa-box">
+          <div id="question-box" class="question-box" onclick="answerer(this, 'answer-2', 'No more than 2GB. All files in your account must fit your allotted storage space.')">
+          <p id="question" class="questions">What is the maximum file upload size?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+          </div>
+          <div id="answer-2" class="answer-box">
+          </div> 
+        </div>
+        <div class="qa-box">
+          <div id="question-box" class="question-box" onclick="answerer(this, 'answer-3', 'Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.')">
+          <p id="question" class="questions">How do I reset my password?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+          </div>
+          <div id="answer-3" class="answer-box">
+          </div> 
+        </div>
+        <div class="qa-box">
+          <div id="question-box" class="question-box" onclick="answerer(this, 'answer-4', 'Yes! Send us a message and we’ll process your request no questions asked.')">
+          <p id="question" class="questions">Can I cancel my subscription?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+          </div>
+          <div id="answer-4" class="answer-box">
+           
+          </div>
+        </div>
+        <div class="qa-box">
+          <div id="question-box" class="question-box" onclick="answerer(this, 'answer-5', 'Chat and email support is available 24/7. Phone lines are open during normal business hours.')">
+          <p id="question" class="questions">Do you provide additional support?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+          </div>
+          <div id="answer-5" class="answer-box">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/plutuxx">Plutux</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

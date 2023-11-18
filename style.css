@@ -39,6 +39,7 @@ body {
 
 .container {
     width: 70%;
+    max-width: 900px;
     height: auto;
     display: flex;
     align-items: center;

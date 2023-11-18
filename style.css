@@ -157,6 +157,7 @@ body {
     .container{
         width: 90%;
         max-width: none;
+        min-width: 288px;
         height: auto;
         flex-direction: column;
     }

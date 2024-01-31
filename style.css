@@ -161,6 +161,7 @@ body {
         max-width: auto;
         min-width: 288px;
         height: auto;
+        min-height: auto;
         flex-direction: column;
     }
     .faq-box {
